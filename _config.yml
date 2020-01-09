@@ -20,6 +20,9 @@ plugins:
   - kramdown
   - rouge
 
+include:
+  - _pages
+
 exclude: 
   - Gemfile
   - clean-theme.gemspec
@@ -61,7 +64,7 @@ highlighter: rouge
 footer_menu: footer_menu
 
 collections:
-  products: 
+  people: 
     output: true
     layout: product
     image: https://via.placeholder.com/800x600

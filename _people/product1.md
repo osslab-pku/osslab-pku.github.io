@@ -1,12 +1,15 @@
 ---
-title: Product 3 Name
-subtitle: Product 3 tagline here
-product_code: ABC125
+title: Product 1 Name
+subtitle: Product 1 tagline here
+description: This is a product description
+type: advisor
+product_code: ABC124
 layout: product
 image: https://via.placeholder.com/640x480
-price: £2.99 + VAT
+price: £1.99 + VAT
 features:
     - label: Great addition to any home
+      icon: fa-location-arrow
     - label: Comes in a range of styles
       icon: fa-grin-stars
     - label: Available in multiple sizes
