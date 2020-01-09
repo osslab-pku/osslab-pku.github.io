@@ -9,7 +9,10 @@ The website of Open Source Software Data Analytics Lab at Peking University
 3. Personal Information: `_people/` folder.
 4. News: `_posts/` folder.
 
-If you want to make major changes in style, layout, or add new features, please contact current website maintainer first.
+If you want to make major changes in style, layout, or add new features, please open a pull request and ask for current site maintainer for review. Some interesting directions includes
+
+1. Make a better looking publication list. (Probably by adding to a collection, some new includes and layouts)
+2. Give new features to personal profile page, making it suitable for hosting a good enough personal website inside our website.
 
 ## Development
 
