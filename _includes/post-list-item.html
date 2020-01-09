@@ -1,0 +1,25 @@
+<div class="box">
+    <div class="columns is-multiline">
+
+        <div class="column is-3-desktop is-4-tablet">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image">
+                        <img src="{{ post.image }}" alt="{{ page.title }}" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="column is-9-desktop is-8-tablet">
+            <div class="content">
+                <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+                <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                <p>{{ post.excerpt }}</p>
+            </div>
+            <div>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>

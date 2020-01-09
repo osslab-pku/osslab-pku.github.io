@@ -3,7 +3,7 @@ title: List of Publications
 subtitle: 
 layout: page
 permalink: /publications/
-# hero_height: 4
+hero_height: 4
 show_sidebar: true
 ---
 
