@@ -58,6 +58,14 @@ defaults:
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
 
+  -
+    scope:
+      path: ""
+      type: "people"
+    values:
+      show_sidebar: false
+      hero_height: 4
+
 markdown: kramdown
 highlighter: rouge
 
@@ -66,6 +74,5 @@ footer_menu: footer_menu
 collections:
   people: 
     output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+    layout: people
+    image: https://via.placeholder.com/480x480

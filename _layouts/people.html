@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="columns is-multiline">
+
+    <div class="column is-3-desktop is-4-tablet">
+      <div class="card">
+        {% if page.image %}
+        <div class="card-image">
+          <figure class="image is-1by1">
+            <img src="{{ page.image }}" alt="{{ page.title }}" />
+          </figure>
+        </div>
+        {% endif %}
+        <div class="card-content">
+          <p class="title is-5">{{ page.title }}</h2>
+          <p class="subtitle is-6">{{ page.subtitle }}</p>  
+          <p class="content">{{ page.description }}</p>  
+        </div>
+      </div>
+    </div>
+
+    <div class="column is-9-desktop is-8-tablet">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div>
+

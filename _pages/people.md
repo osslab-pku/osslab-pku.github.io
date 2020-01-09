@@ -1,7 +1,7 @@
 ---
 title: People
 subtitle: 
-layout: product-category
+layout: people-overview
 permalink: /people/
 show_sidebar: true
 ---

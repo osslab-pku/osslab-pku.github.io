@@ -14,20 +14,19 @@ show_sidebar: false
   {% assign sorted_peoples = site.people | sort:page.sort %}
   {% for people in sorted_peoples %}
     {% if people.type == "advisor" %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ people.url | prepend: site.baseurl }}">
+    <div class="column is-3-desktop is-6-tablet">
+      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
           {% if people.image %}
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-1by1">
               <img src="{{ people.image }}" alt="{{ people.title }}" />
             </figure>
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-4">{{ people.title }}</h2>
-            <p class="subtitle is-4">{{ people.subtitle }}</p>  
-            <p class="title is-5 has-text-right">{{ people.price }}</p>
+            <p class="title is-5">{{ people.title }}</h2>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>  
           </div>
         </div>
       </a>
@@ -42,20 +41,19 @@ show_sidebar: false
   {% assign sorted_peoples = site.people | sort:page.sort %}
   {% for people in sorted_peoples %}
     {% if people.type == "phd" %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ people.url | prepend: site.baseurl }}">
+    <div class="column is-3-desktop is-6-tablet">
+      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
           {% if people.image %}
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-1by1">
               <img src="{{ people.image }}" alt="{{ people.title }}" />
             </figure>
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-4">{{ people.title }}</h2>
-            <p class="subtitle is-4">{{ people.subtitle }}</p>  
-            <p class="title is-5 has-text-right">{{ people.price }}</p>
+            <p class="title is-5">{{ people.title }}</h2>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>  
           </div>
         </div>
       </a>
@@ -70,20 +68,19 @@ show_sidebar: false
   {% assign sorted_peoples = site.people | sort:page.sort %}
   {% for people in sorted_peoples %}
     {% if people.type == "master" %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ people.url | prepend: site.baseurl }}">
+    <div class="column is-3-desktop is-6-tablet">
+      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
           {% if people.image %}
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-1by1">
               <img src="{{ people.image }}" alt="{{ people.title }}" />
             </figure>
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-4">{{ people.title }}</h2>
-            <p class="subtitle is-4">{{ people.subtitle }}</p>  
-            <p class="title is-5 has-text-right">{{ people.price }}</p>
+            <p class="title is-5">{{ people.title }}</h2>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>  
           </div>
         </div>
       </a>
@@ -98,20 +95,19 @@ show_sidebar: false
   {% assign sorted_peoples = site.people | sort:page.sort %}
   {% for people in sorted_peoples %}
     {% if people.type == "undergraduate" %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ people.url | prepend: site.baseurl }}">
+    <div class="column is-3-desktop is-6-tablet">
+      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
           {% if people.image %}
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-1by1">
               <img src="{{ people.image }}" alt="{{ people.title }}" />
             </figure>
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-4">{{ people.title }}</h2>
-            <p class="subtitle is-4">{{ people.subtitle }}</p>  
-            <p class="title is-5 has-text-right">{{ people.price }}</p>
+            <p class="title is-5">{{ people.title }}</h2>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>  
           </div>
         </div>
       </a>
@@ -126,20 +122,19 @@ show_sidebar: false
   {% assign sorted_peoples = site.people | sort:page.sort %}
   {% for people in sorted_peoples %}
     {% if people.type == "graduated" %}
-    <div class="column is-4-desktop is-6-tablet">
-      <a href="{{ people.url | prepend: site.baseurl }}">
+    <div class="column is-3-desktop is-6-tablet">
+      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
           {% if people.image %}
           <div class="card-image">
-            <figure class="image is-4by3">
+            <figure class="image is-1by1">
               <img src="{{ people.image }}" alt="{{ people.title }}" />
             </figure>
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-4">{{ people.title }}</h2>
-            <p class="subtitle is-4">{{ people.subtitle }}</p>  
-            <p class="title is-5 has-text-right">{{ people.price }}</p>
+            <p class="title is-5">{{ people.title }}</h2>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>  
           </div>
         </div>
       </a>
