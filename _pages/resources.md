@@ -71,5 +71,7 @@ Jupyter Lab, R, Python, Pandas, Matplotlib, Seaborn
 
 1. *Computer Systems: A Programmer's Perspective* by Randal E. Bryant, David R. O'Hallaron.
 
-## Other Labs with Similar Research Directions
+## Other Researchers
 
+1. [Audris Mockus@Tennessee](http://mockus.us/)
+2. [Bogdan Vasilescu@CMU](http://bvasiles.github.io/)
