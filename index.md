@@ -26,6 +26,8 @@ See [the CCF list](https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/) for top venues
 
 ### Open Source Software Supply Chain
 
+Currently, [Hao He](https://hehao98.github.io) is doing research on the general topic of open source software supply chain. He is now actively investigating how developers manage dependencies in their own projects, in order to make dependency management easier for developers. He is also interested in why developers choose one software technology over another, and how they migrate between libraries.
+
 ### Mining AI Software Trends
 
 ### Enhancing Source Code Comments
@@ -34,9 +36,9 @@ See [the CCF list](https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/) for top venues
 
 We are constantly looking for self-motivated students with strong programming skills. Students with strong interest in observing open source ecosystems and improving current software development practices are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, machine learning and natural language processing might help you prosper in this field but are not necessarily required. 
 
-Any undergraduate internship is welcome. Contact Professor Zhou for details about PhD openings.
+Contact Professor Zhou for details about PhD openings and undergraduate internship opportunities.
 
-<strike>The handsome Chao "Empiricial" Wang currently does not have a girlfriend!</strike>
+<strike>The handsome Chao "Empirical" Wang currently does not have a girlfriend!</strike>
 
 ## Industry Collaborators
 
