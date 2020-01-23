@@ -31,6 +31,8 @@ To test this website locally, use
 bundle exec jekyll serve
 ```
 
+You can use `get_pub.py` to automatically generate publication data. However, you need to manually add PDF links, slide links, etc.
+
 ## Reference Documentation
 
 1. [jekyll](https://jekyllrb.com/).

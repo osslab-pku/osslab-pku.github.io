@@ -86,3 +86,6 @@ collections:
     output: true
     layout: people
     image: https://via.placeholder.com/480x480
+  publication:
+    output: true
+    layout: publication

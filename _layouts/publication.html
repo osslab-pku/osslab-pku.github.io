@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="content">
+
+    {% assign sorted_pubs = site.publication | sort:page.sort %}
+    {% assign year = 0 %}
+    {% for pub in sorted_pubs reversed %}
+    <article class="media">
+        <div class="media-content">
+            <div class="content">
+                <p>
+                    {{ pub.author }}
+                    <br>
+                    <strong>({{ pub.year }}) {{ pub.title }}</strong>
+                    <br>
+                    {{ pub.proceeding }}, <a href="https://doi.org/{{ pub.doi }}">{{ pub.doi }}</a>
+                </p>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+    {{ content }}
+</div>
+
+{% if site.disqus.shortname %}
+{% include disqus.html %}
+{% endif %}
