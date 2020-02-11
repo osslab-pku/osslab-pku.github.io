@@ -1,3 +1,4 @@
+import os
 import requests
 import bibtexparser
 from yaml import load, dump
@@ -17,6 +18,9 @@ for entry in bib_database.entries:
         continue 
     
     filename = "{}-{}".format(entry["year"], entry["doi"].replace("/", "-"))
+    if os.path.exists(filename):
+        print("Publication entry {} already exists. Skipping...".format(filename))
+        continue
     with open("_publication/{}.md".format(filename), "w") as f:
         data = {
             "title": entry["title"].replace("\n", " ").replace("{", "").replace("}", ""),
