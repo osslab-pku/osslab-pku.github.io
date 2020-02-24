@@ -5,7 +5,7 @@ description: This is a short description
 personal_website: http://www.wujianyu.com
 type: phd
 layout: people
-image:  assets/images/Wujianyu.jpg  
+image:  https://osslab-pku.github.io/images/profile3.jpeg
 # Put your avatar here or upload one
 ---
 
