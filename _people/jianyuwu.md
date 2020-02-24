@@ -2,9 +2,10 @@
 title: Jianyu Wu
 subtitle: 1st Year PhD Candidate
 description: This is a short description
+personal_website: http://www.wujianyu.com
 type: phd
 layout: people
-image: https://via.placeholder.com/480x480 # Put your avatar here or upload one
+image: _people/Avatar/Ava_WuJianyu.jpg # Put your avatar here or upload one
 ---
 
 You can write a personal introduction here.
