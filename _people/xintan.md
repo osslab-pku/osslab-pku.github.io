@@ -5,7 +5,7 @@ description: This is a short description
 personal_website: https://sites.google.com/view/xintan/
 type: phd
 layout: people
-image: image: https://osslab-pku.github.io/assets/images/Tanxin.jpg # Put your avatar here or upload one
+image: https://osslab-pku.github.io/assets/images/Tanxin.jpg # Put your avatar here or upload one
 ---
 
 You can write a personal introduction here.
