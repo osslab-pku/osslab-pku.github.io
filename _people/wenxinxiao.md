@@ -1,6 +1,6 @@
 ---
 title: Wenxin Xiao
-subtitle: 0st Year PhD Candidate 
+subtitle: 0th Year PhD Candidate 
 type: phd
 layout: people
 image: https://osslab-pku.github.io/assets/images/xwx.jpg 
