@@ -2,9 +2,10 @@
 title: Jiaxin Zhu
 subtitle: Research Fellow at ISCAS
 description: This is a short description
+personal_website: http://jxshin.github.io/
 type: graduated
 layout: people
-image: https://via.placeholder.com/480x480 # Put your avatar here or upload one
+image: https://osslab-pku.github.io/assets/images/jiaxinzhu.jpg # Put your avatar here or upload one
 ---
 
 You can write a personal introduction here.
