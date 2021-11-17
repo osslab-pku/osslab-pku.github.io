@@ -18,19 +18,12 @@ See [the CCF list](https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/) for top venues
 
 ## Current Research Directions
 
-### Developer Communication
-
-### Open Source Sustainbility
-
-### Company Open Source Participation
-
-### Open Source Software Supply Chain
-
-Currently, [Hao He](https://hehao98.github.io) is doing research on the general topic of open source software supply chain. He is now actively investigating how developers manage dependencies in their own projects, in order to make dependency management easier for developers. He is also interested in why developers choose one software technology over another, and how they migrate between libraries.
-
-### Mining AI Software Trends
-
-### Enhancing Source Code Comments
+1. Developer Communication
+2. Open Source Sustainbility
+3. Company Open Source Participation
+4. Open Source Software Supply Chain
+5. Mining AI Software Trends
+6. Enhancing Source Code Comments
 
 ## For Prespective Students
 
