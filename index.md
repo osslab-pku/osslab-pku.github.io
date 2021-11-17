@@ -38,8 +38,6 @@ We are constantly looking for self-motivated students with strong programming sk
 
 Contact Professor Zhou for details about PhD openings and undergraduate internship opportunities.
 
-<strike>The handsome Chao "Empirical" Wang currently does not have a girlfriend!</strike>
-
 ## Industry Collaborators
 
 ![](assets/images/Huawei.svg)
