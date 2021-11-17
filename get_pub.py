@@ -16,7 +16,8 @@ for entry in bib_database.entries:
         continue
     if int(entry["year"]) < 2010:
         continue 
-    
+    if "doi" not in entry:
+        continue
     filename = "{}-{}".format(entry["year"], entry["doi"].replace("/", "-"))
     if os.path.exists(filename):
         print("Publication entry {} already exists. Skipping...".format(filename))
