@@ -1,7 +1,7 @@
 ---
 title: Yulin Xu
-subtitle: 3rd Year Master
-type: master
+subtitle: Tencent
+type: graduated
 layout: people
 image: https://osslab-pku.github.io/assets/images/yulinxu.jpg 
 ---

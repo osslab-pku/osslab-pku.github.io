@@ -1,6 +1,6 @@
 ---
 title: Kai Gao
-subtitle: 1st Year PhD Candidate
+subtitle: 3rd Year Ph.D. Candidate
 description: This is a short description
 type: phd
 layout: people

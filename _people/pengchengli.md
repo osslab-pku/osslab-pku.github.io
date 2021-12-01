@@ -1,8 +1,8 @@
 ---
 title: Pengcheng Li
-subtitle: 2nd Year PhD Candidate
+subtitle: 4th Year Master
 description: This is a short description
-type: phd
+type: master
 layout: people
 image: https://via.placeholder.com/480x480 # Put your avatar here or upload one
 ---

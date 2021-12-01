@@ -1,11 +1,11 @@
 ---
 title: Hao He
-subtitle: 4th Year Undergraduate
+subtitle: 2nd Year Ph.D. Candidate
 description: This is a short description
 personal_website: https://hehao98.github.io
-type: undergraduate
+type: phd
 layout: people
-image: https://hehao98.github.io/images/profile3.jpeg
+image: https://hehao98.github.io/images/profile.jpg
 ---
 
 You can write a personal introduction here.
