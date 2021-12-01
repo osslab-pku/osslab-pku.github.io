@@ -29,7 +29,7 @@ See [the CCF list](https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/) for top venues
 
 We are constantly looking for self-motivated students with strong programming skills. Students with strong interest in observing open source ecosystems and improving current software development practices are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, machine learning and natural language processing might help you prosper in this field but are not necessarily required. 
 
-Contact Professor Zhou for details about PhD openings and undergraduate internship opportunities.
+Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about PhD openings and undergraduate internship opportunities.
 
 ## Industry Collaborators
 
