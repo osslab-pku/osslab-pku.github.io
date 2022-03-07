@@ -5,5 +5,5 @@ description: This is a short description
 personal_website: 
 type: undergraduate
 layout: people
-image: https://via.placeholder.com/480x480
+image: https://osslab-pku.github.io/assets/images/placeholder.png 
 ---
