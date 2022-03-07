@@ -7,5 +7,3 @@ type: phd
 layout: people
 image: https://via.placeholder.com/480x480
 ---
-
-You can write a personal introduction here.

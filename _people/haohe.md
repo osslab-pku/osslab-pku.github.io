@@ -7,5 +7,3 @@ type: phd
 layout: people
 image: https://hehao98.github.io/images/profile.jpg
 ---
-
-You can write a personal introduction here.

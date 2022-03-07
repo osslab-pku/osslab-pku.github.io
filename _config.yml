@@ -85,7 +85,7 @@ collections:
   people: 
     output: true
     layout: people
-    image: https://via.placeholder.com/480x480
+    image: https://osslab-pku.github.io/assets/images/placeholder.png 
   publication:
     output: true
     layout: publication
