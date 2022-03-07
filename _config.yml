@@ -39,7 +39,7 @@ sass:
   style: compressed
   source_dir: _sass
 
-#google_analytics: UA-code-here
+google_analytics: G-QDRNQTVQY1
 
 defaults:
   -
