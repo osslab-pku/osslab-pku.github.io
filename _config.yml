@@ -40,6 +40,7 @@ sass:
   source_dir: _sass
 
 google_analytics: G-QDRNQTVQY1
+disqus.shortname: osslab
 
 defaults:
   -
