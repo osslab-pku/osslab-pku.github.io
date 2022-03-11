@@ -41,7 +41,7 @@ sass:
 
 google_analytics: G-QDRNQTVQY1
 disqus:
-  - shortname: osslab
+  shortname: osslab
 
 defaults:
   -
