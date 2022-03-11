@@ -13,7 +13,11 @@
         </div>
         {% endif %}
 
+        {% if page.image %}
         <div class="column is-9-desktop is-8-tablet">
+        {% else %}
+        <div class="column is-12-desktop is-12-tablet">
+        {% endif %}
             <div class="content">
                 <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
                 <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
