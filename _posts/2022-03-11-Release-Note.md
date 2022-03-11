@@ -8,7 +8,7 @@
  #hero_height: is-large
  author: Hao He
  published: true
- comment: true
+ comments: true
 ---
 
 Release note is important. However, there is a lack of tutorials or widely acknowledged standards about how to produce a release note. Without "the right way," release notes may cause all kinds of issues. In this article, we will provide an FAQ-style introduction on how to produce the "right" release note for your users, based on [our recent research](https://hehao98.github.io/publication/2022-release-notes) on ~1000 real release note issues in GitHub project. This is still a preliminary draft, so if you have any suggestions or critiques, feel free to comment below!
