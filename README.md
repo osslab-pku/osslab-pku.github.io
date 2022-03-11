@@ -7,7 +7,7 @@ The website of Open Source Software Data Analytics Lab at Peking University
 1. Main Page: `index.md`
 2. Other Pages: `_page/` folder.
 3. Personal Information: `_people/` folder.
-4. News: `_posts/` folder.
+4. Posts: `_posts/` folder.
 
 If you want to make major changes in style, layout, or add new features, please open a pull request and ask for current site maintainer for review. Some interesting directions includes
 

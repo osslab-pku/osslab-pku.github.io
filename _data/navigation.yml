@@ -1,5 +1,5 @@
-- name: News
-  link: /news/index.html
+- name: Posts
+  link: /posts/index.html
 - name: Publications
   link: /publications/
 - name: People
