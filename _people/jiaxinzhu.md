@@ -1,6 +1,6 @@
 ---
 title: Jiaxin Zhu
-subtitle: Research Fellow at ISCAS
+subtitle: Chinese Academy of Sciences
 description: This is a short description
 personal_website: http://jxshin.github.io/
 type: graduated
