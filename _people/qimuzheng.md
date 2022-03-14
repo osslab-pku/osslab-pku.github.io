@@ -1,6 +1,6 @@
 ---
 title: Qimu Zheng
-subtitle: 
+subtitle: 4Paradigm
 description: This is a short description
 type: graduated
 layout: people
