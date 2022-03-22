@@ -10,11 +10,9 @@ toc: true
 
 ## Introduction to our Research
 
-Here is an [introductory documentation](https://github.com/minghuizhou/ResearchIntroduction/blob/master/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91%E4%BB%8B%E7%BB%8D.docx) written and maintained by Prof. Zhou.
+Here is an [introductory documentation](https://github.com/minghuizhou/ResearchIntroduction/blob/master/LabIntroduction.md) written and maintained by Prof. Zhou.
 
 ## General Research Advices
-
-(Adopted from [Prof. Xuanzhe Liu](liuxuanzhe.com)'s Website)
 
 [How to Write a Good Research Paper](http://spoke.compose.cs.cmu.edu/write/) (by Prof. Mary Shaw)
 
@@ -31,6 +29,8 @@ Here is an [introductory documentation](https://github.com/minghuizhou/ResearchI
 [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (by Prof. Richard Hamming)
 
 [How to Give a Technical Presentation](http://homes.cs.washington.edu/~mernst/advice/giving-talk.html) (by Prof. Michael Ernst ) 
+
+(Adopted from [Prof. Xuanzhe Liu](liuxuanzhe.com)'s Website)
 
 ## Common Technologies Used in Our Research
 
