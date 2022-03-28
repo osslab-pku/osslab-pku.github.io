@@ -14,7 +14,7 @@ In the broadest sense, our research belongs to the Software Engineering field, w
 
 More specifically, our current focus is on observing software repositories and measuring how developers live their lives for various purposes, like helping understand and control large complex software systems, society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. 
 
-See [the CCF list](https://www.ccf.org.cn/xspj/rjgc/xtrj/cxsjyy/) for top venues in this field. See [Publications](/publications/) for our latest publications. If you want to learn more, see [Resources](/resources/) in this website.
+See [the CCF list](https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/) for top venues in this field. See [Publications](/publications/) for our latest publications. If you want to learn more, see [Resources](/resources/) in this website.
 
 ## Current Research Directions
 

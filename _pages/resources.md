@@ -30,7 +30,7 @@ Here is an [introductory documentation](https://github.com/minghuizhou/ResearchI
 
 [How to Give a Technical Presentation](http://homes.cs.washington.edu/~mernst/advice/giving-talk.html) (by Prof. Michael Ernst ) 
 
-(Adopted from [Prof. Xuanzhe Liu](liuxuanzhe.com)'s Website)
+(Adopted from [Prof. Xuanzhe Liu](http://www.liuxuanzhe.com)'s Website)
 
 ## Common Technologies Used in Our Research
 
