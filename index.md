@@ -18,16 +18,17 @@ See [the CCF list](https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/) for 
 
 ## Current Research Directions
 
-1. Developer Communication
+1. Profiling Developer (expertise and personality)
 2. Open Source Sustainbility
-3. Company Open Source Participation
+3. Structure/characteristics of open source ecosystem (Company Participation)
 4. Open Source Software Supply Chain
 5. Mining AI Software Trends
 6. Enhancing Source Code Comments
+7. Software engineering bots (GFI recommender/dependency update bot/release note bot...)
 
 ## For Prespective Students
 
-We are constantly looking for self-motivated students with strong programming skills. Students with strong interest in observing open source ecosystems and improving current software development practices are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, machine learning and natural language processing might help you prosper in this field but are not necessarily required. 
+We are constantly looking for self-motivated students with sufficient programming skills. Students with strong interest in mining big data, observing open source ecosystems and improving current software development practices are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, machine learning and natural language processing might help you prosper in this field but are not necessarily required. 
 
 Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about PhD openings and undergraduate internship opportunities.
 
