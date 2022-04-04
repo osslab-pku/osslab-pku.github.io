@@ -16,7 +16,7 @@ More specifically, our current focus is on observing software repositories and m
 
 See [the CCF list](https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/) for top venues in this field. See [Publications](/publications/) for our latest publications. If you want to learn more, see [Resources](/resources/) in this website.
 
-## Current Research Directions
+## Current Research Ts
 
 1. Profiling Developer (expertise and personality)
 2. Open Source Sustainbility
