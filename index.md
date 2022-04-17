@@ -6,6 +6,10 @@ layout: page
 show_sidebar: true
 ---
 
+<span style="color:red">
+  **📢📢📢 Our Lab has a Ph.D. position opening for Fall 2023! If you have interest please send your CV to [Minghui](http://sei.pku.edu.cn/~zhmh/). **
+</span>
+
 ## Introduction
 
 We are a research group at School of Electronic Engineering and Computer Science, Peking University. 
