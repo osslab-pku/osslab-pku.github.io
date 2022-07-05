@@ -18,11 +18,18 @@ for entry in bib_database.entries:
         continue 
     if "doi" not in entry:
         continue
+    if entry["doi"] == "10.1007/978-3-030-78612-0\_52":
+        continue
+    print(entry)
     filename = "{}-{}".format(entry["year"], entry["doi"].replace("/", "-"))
     if os.path.exists(filename):
         print("Publication entry {} already exists. Skipping...".format(filename))
         continue
     with open("_publication/{}.md".format(filename), "w") as f:
+        if "pages" not in entry:
+            entry["pages"] = ""
+        if "number" not in entry:
+            entry["number"] = ""
         data = {
             "title": entry["title"].replace("\n", " ").replace("{", "").replace("}", ""),
             "year": entry["year"],
