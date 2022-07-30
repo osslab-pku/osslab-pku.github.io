@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="columns is-multiline">
+    {% for post in site.project%} 
+    <div class="column is-12">
+        {% include post-list-item.html %}
+    </div>
+    {% endfor %}
+</div>
