@@ -91,3 +91,6 @@ collections:
   publication:
     output: true
     layout: publication
+  project:
+    output: true
+    layout: project
