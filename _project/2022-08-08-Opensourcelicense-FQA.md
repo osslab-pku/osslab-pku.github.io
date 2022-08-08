@@ -3,6 +3,7 @@
  title: "Open source license FQA"
  description: '开源许可证介绍、分类、常见问题解答'
  author: Weiwei Xu
+ github: https://github.com/osslab-pku/OpenSourceLicense-FQA
  published: true
  comments: true
 ---

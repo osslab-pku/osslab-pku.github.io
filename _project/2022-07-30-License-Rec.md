@@ -3,6 +3,7 @@
  title: "LicenseRec"
  date: 2022-07-30 08:00:07
  description: 'Licenserec is a ruby library for open source license selection, which provides functions such as license compatibility query, license compatibility check, project compatibility license screening, license term feature query, license term feature comparison, license type selection view, and interpretation of key license terms.'
+ github: https://github.com/osslab-pku/licenserec
  author: Weiwei Xu
  published: true
  comments: true

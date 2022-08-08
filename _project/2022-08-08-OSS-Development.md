@@ -3,6 +3,7 @@
  title: "OSS Development"
  description: '本课程为大学计算机系本科生和研究生设计，课程目的是使得计算机领域的同学们对于开源软件的开发方法、开发过程和支持技术有深入的了解，对于如何将抽象方法和理论知识结合到工程中有更好的锻炼，对于参与开源软件社区有基本的掌握。'
  author: Weiwei Xu
+ github: https://github.com/osslab-pku/OSSDevelopment
  published: true
  comments: true
 ---

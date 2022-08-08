@@ -4,6 +4,8 @@
  description: 'Welcome to the main repositoryfor paper "A Multi-Metric Ranking Approach for Library Migration Recommendations."
 This repository contains everything for paper replication, some command-line utility tools, and a RESTful backend for our website demo.'
  author: Weiwei Xu
+ github: https://github.com/hehao98/MigrationHelper
+ website: https://migration-helper.net/
  published: true
  comments: true
 ---

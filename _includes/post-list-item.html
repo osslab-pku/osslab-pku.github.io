@@ -25,6 +25,12 @@
             </div>
             <div>
                 <a href="{{ site.baseurl }}{{ post.url }}" class="button is-primary">Read more</a>
+                {% if post.github %}
+                <a href="{{ post.github }}" class="button is-primary">GitHub</a>
+                {% endif %}
+                {% if post.website %}
+                <a href="{{ post.website }}" class="button is-primary">Website</a>
+                {% endif %}
             </div>
         </div>
     </div>
