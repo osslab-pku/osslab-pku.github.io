@@ -20,7 +20,9 @@
         {% endif %}
             <div class="content">
                 <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+                {% if post.layout != "project" %}
                 <p>Published: {{ post.date | date: "%b %-d, %Y" }}</p>
+                {% endif %}
                 <p>{{ post.excerpt }}</p>
             </div>
             <div>

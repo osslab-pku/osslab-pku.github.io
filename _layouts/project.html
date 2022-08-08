@@ -4,15 +4,15 @@ layout: default
 
 <div class="content">
 
-    <p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-
     <div>
-      {% if page.github %}
-      <a href="{{ page.github }}" class="button is-primary">GitHub</a>
-      {% endif %}
-      {% if page.website %}
-      <a href="{{ page.website }}" class="button is-primary">Website</a>
-      {% endif %}
+      <p>
+        {% if page.github %}
+        <a href="{{ page.github }}" class="button is-primary">GitHub</a>
+        {% endif %}
+        {% if page.website %}
+        <a href="{{ page.website }}" class="button is-primary">Website</a>
+        {% endif %}
+      </p>
     </div>
 
     {{ content }}
