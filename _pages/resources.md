@@ -22,7 +22,7 @@ Here is an [introductory documentation](https://github.com/minghuizhou/ResearchI
 * [Preliminary Guidelines for Empirical Research in Software Engineering](http://dl.acm.org/citation.cfm?id=636197) (by Prof. Barbara Kitchenham et al.)
 * [Why I gave your paper a Strong Accept](http://matt-welsh.blogspot.hk/2016/04/why-i-gave-your-paper-strong-accept.html) (by Matt Welsh)
 * [Why I gave your paper a Strong Reject](http://matt-welsh.blogspot.hk/2016/04/why-i-gave-your-paper-strong-reject.html) (by Matt Welsh)
-* [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (by Prof. Richard Hamming) （这篇的主题是：如何做出**卓越**的研究）
+* [You and Your Research](http://www.cs.virginia.edu/~robins/YouAndYourResearch.html) (by Prof. Richard Hamming) (It is basically talking about how to do **great** research)
 * [How to Give a Technical Presentation](http://homes.cs.washington.edu/~mernst/advice/giving-talk.html) (by Prof. Michael Ernst)
 
 (Adopted from [Prof. Xuanzhe Liu](http://www.liuxuanzhe.com)'s Website)
