@@ -8,7 +8,7 @@ show_sidebar: true
 
 ## Introduction
 
-We are a research group at School of Electronic Engineering and Computer Science, Peking University. 
+We are a research group at School of Computer Science, Peking University. 
 
 In the broadest sense, our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community is diversed in all sorts of ways toward this goal. We often take the **empirical** approach, by observing things in real life and summarizing best practices from experiences. 
 
