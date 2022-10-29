@@ -1,6 +1,6 @@
 ---
 title: Runzhi He
-subtitle: 1st Year Ph.D. Candidate
+subtitle: 1st Year Ph.D. Student
 description: This is a short description
 personal_website: 
 type: phd
