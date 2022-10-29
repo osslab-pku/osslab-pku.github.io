@@ -1,6 +1,6 @@
 ---
 title: Haiqiao Gu
-subtitle: 2nd Year Ph.D. Candidate
+subtitle: 2nd Year Ph.D. Student
 description: This is a short description
 personal_website: 
 type: phd
