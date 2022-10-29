@@ -1,6 +1,6 @@
 ---
 title: Chao Wang
-subtitle: 4rd Year Ph.D. Candidate
+subtitle: 5th Year Ph.D. Candidate
 description: This is a short description
 type: phd
 layout: people

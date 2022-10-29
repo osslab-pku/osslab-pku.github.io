@@ -1,6 +1,6 @@
 ---
 title: Wenxin Xiao
-subtitle: 2nd Year Ph.D. Candidate 
+subtitle: 3rd Year Ph.D. Candidate 
 type: phd
 layout: people
 image: https://osslab-pku.github.io/assets/images/xwx.jpg 
