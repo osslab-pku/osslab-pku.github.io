@@ -1,6 +1,6 @@
 ---
 title: Wenhao Yang
-subtitle: Undergraudate (to be a Ph.D.)
+subtitle: Undergraudate (to be a Ph.D. Student)
 description: This is a short description
 personal_website: 
 type: undergraduate
