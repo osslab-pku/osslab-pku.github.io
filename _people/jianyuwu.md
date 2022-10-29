@@ -1,6 +1,6 @@
 ---
 title: Jianyu Wu
-subtitle: 3rd Year Ph.D. Candidate
+subtitle: 4th Year Ph.D. Candidate
 description: This is a short description
 personal_website: http://www.wujianyu.com
 type: phd
