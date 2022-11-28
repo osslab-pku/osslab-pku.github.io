@@ -12,7 +12,7 @@ LicenseRec is an open source license recommendation tool that helps developers c
 
 # LicenseRec
 
-![avatar](https://github.com/osslab-pku/RecLicense/blob/1caf4372960a9a54cfcbfbbbdf9ee86ab922d61a/frontend/src/assets/tool.png)
+![avatar](https://github.com/osslab-pku/RecLicense/raw/master/frontend/src/assets/tool.png)
 
 The tool is available at [licenserec.com](https://licenserec.com/).
 
@@ -25,7 +25,7 @@ LicenseRec performs fine-grained license compatibility checks on OSS projects’
 
 ## Installation
 
-LicenseRec can be installed in two ways: using Docker or manually. Check deployment instructions in [DEPLOY.md](./DEPLOY.md).
+LicenseRec can be installed in two ways: using Docker or manually.
 
 ## License and Acknowledgements
 
