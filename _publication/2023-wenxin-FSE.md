@@ -1,0 +1,9 @@
+---
+author: Wenxin Xiao and Hao He and Weiwei Xu and Yuxia Zhang and Minghui Zhou
+doi:
+pages: ''
+proceeding: "31st ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering, ESEC/FSE 2023, San Francisco, USA, 11 - 17 November 2023."
+timestamp: Tue, 28 July 2023 01:00:00 +0200
+title: 'How Early Participation Determines Long-Term Sustained Activity in GitHub Projects?'
+year: '2023'
+---
