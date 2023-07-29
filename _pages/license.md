@@ -1,5 +1,5 @@
 ---
-title: Our lab's reserch on Open Source License
+title: Our reserch on Open Source License
 subtitle:
 layout: page-2col
 permalink: /license/
