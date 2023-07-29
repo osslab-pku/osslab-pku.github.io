@@ -20,12 +20,16 @@ toc: true
 
 [LicenseRec](https://github.com/osslab-pku/RecLicense)是一个开源许可证推荐工具，帮助开发者为他们的开源软件项目选择一个最佳许可证。 LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可证兼容性检查，并通过一个交互式的向导来帮助开发者选择最佳的许可证，该向导有三个方面的指引：个人开放源码风格、商业模式和社区发展。
 
+## 开源许可证常见问答
+[开源许可证介绍、分类、常见问题解答](https://github.com/osslab-pku/OpenSourceLicense-FQA/blob/master/open-source-license-fqa.md)
 
+## 木兰许可证相关日志
+[木兰宽松许可证（MulanPSL） 和 木兰公共许可证（MulanPubL） 的日志](https://github.com/osslab-pku/mulanlicense-log)，记录其所有相关信息。 包括许可证的文本，如何使用许可证，许可证的常见问题，以及采用许可证的开源项目列表等。
 
 ## 论文成果
 
 ```
-1.  吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
+1. 吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
 ```
 
 ```
@@ -37,5 +41,5 @@ Melbourne, Australia, 2023, pp. 180-183, doi: 10.1109/ICSE-Companion58688.2023.0
 ```
 3. W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities
 in the PyPI Ecosystem,"in 38th IEEE/ACM International Conference on Automated Software Engineering,
-ASE 2023, Luxembourg, September 11-15, 2023.
+ASE 2023, Luxembourg, September 11-15, 2023.（to appear）
 ```
