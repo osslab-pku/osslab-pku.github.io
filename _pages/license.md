@@ -19,6 +19,7 @@ toc: true
 ## 开源许可证推荐工具
 
 [LicenseRec](https://github.com/osslab-pku/RecLicense)是一个开源许可证推荐工具，帮助开发者为他们的开源软件项目选择一个最佳许可证。 LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可证兼容性检查，并通过一个交互式的向导来帮助开发者选择最佳的许可证，该向导有三个方面的指引：个人开放源码风格、商业模式和社区发展。
+该工具可在[licenserec.com](https://licenserec.com/)使用，演示视频在[video.licenserec.com](https://video.licenserec.com/)。该工具已发表在ICSE'23的DEMO Track上，论文参见：[LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects](https://ieeexplore.ieee.org/abstract/document/10172799).
 
 ## 开源许可证常见问答
 [开源许可证介绍、分类、常见问题解答](https://github.com/osslab-pku/OpenSourceLicense-FQA/blob/master/open-source-license-fqa.md)
@@ -34,17 +35,17 @@ toc: true
 当您使用相应成果时，欢迎引用以下论文：
 
 ```
-1. 吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
+[1] 吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
 ```
 
 ```
-2. W. Xu, X. Wu, R. He and M. Zhou, "LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects,"
+[2] W. Xu, X. Wu, R. He and M. Zhou, "LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects,"
 2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion),
 Melbourne, Australia, 2023, pp. 180-183, doi: 10.1109/ICSE-Companion58688.2023.00050.
 ```
 
 ```
-3. W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities
+[3] W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities
 in the PyPI Ecosystem,"in 38th IEEE/ACM International Conference on Automated Software Engineering,
 ASE 2023, Luxembourg, September 11-15, 2023.（to appear）
 ```
