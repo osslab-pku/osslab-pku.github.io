@@ -32,8 +32,8 @@ toc: true
 
 ## 论文成果
 
-当您使用相应成果时，欢迎引用以下论文：
-
+### 当您使用相应成果时，欢迎引用以下论文：
+知识库与推荐工具：
 ```
 [1] 吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
 ```
@@ -44,6 +44,7 @@ toc: true
 Melbourne, Australia, 2023, pp. 180-183, doi: 10.1109/ICSE-Companion58688.2023.00050.
 ```
 
+冲突消解工具：
 ```
 [3] W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities
 in the PyPI Ecosystem,"in 38th IEEE/ACM International Conference on Automated Software Engineering,
