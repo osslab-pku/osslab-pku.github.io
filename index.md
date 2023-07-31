@@ -10,7 +10,7 @@ show_sidebar: true
 
 We are a research group at School of Computer Science, Peking University. 
 
-In the broadest sense, our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community is diversed in all sorts of ways toward this goal. We often take the **empirical** approach, by observing things in real life and summarizing best practices from experiences. 
+In the broadest sense, our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community is diversed in all sorts of ways toward this goal. We often take the **empirical** approach, by observing things in real life and summarizing practices from experiences, to build theories and mechanisms. We often invent intelligent techniques and bots to help control complex system and its development.
 
 More specifically, our current focus is on observing software repositories and measuring how developers live their lives for various purposes, like helping understand and control large complex software systems, society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. 
 
