@@ -18,13 +18,12 @@ See [the CCF list](https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/) for 
 
 ## Current Research Ts
 
-1. Profiling Developer (expertise and personality)
-2. Open Source Sustainbility
-3. Structure/characteristics of open source ecosystem (Company Participation)
-4. Open Source Software Supply Chain
-5. Mining AI Software Trends
-6. Enhancing Source Code Comments
-7. Software engineering bots (GFI recommender/dependency update bot/release note bot...)
+1. Open Source Software Supply Chain (modeling, risk analysis and resolutin)
+2. Characterizing open source ecosystem as complex system
+3. Open source license compatibility detection and conflict resolution
+4. Open Source Sustainbility (deprecation prediction)
+5. Profiling Developer (expertise, personality and learning trajectory)
+6. Software engineering bots (library migration recommender/GFI recommender/dependency update bot/release note bot...)
 
 ## For Prespective Students
 
