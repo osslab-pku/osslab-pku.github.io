@@ -41,7 +41,8 @@ LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可�
 ## 开源许可证冲突消解工具
 即将上线，敬请期待！
 
-## 论文 （当您使用相应成果时，欢迎引用以下论文）
+## 论文
+当您使用相应成果时，建议引用以下论文。
 ##### 开源许可证知识库与推荐工具：
 1. 吴欣, 武健宇, 周明辉, 王志强, & 杨丽蕴. (2021). 开源许可证的选择: 挑战和影响因素. 软件学报, 33(1), 1-25.
 2. W. Xu, X. Wu, R. He and M. Zhou, "LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects," 2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion), Melbourne, Australia, 2023, pp. 180-183, doi: 10.1109/ICSE-Companion58688.2023.00050.
