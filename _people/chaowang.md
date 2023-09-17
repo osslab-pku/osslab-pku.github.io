@@ -1,8 +1,8 @@
 ---
 title: Chao Wang
-subtitle: 5th Year Ph.D. Candidate
+subtitle: Kaihong
 description: This is a short description
-type: phd
+type: graduated
 layout: people
 image: https://osslab-pku.github.io/assets/images/chaowang.jpg # Put your avatar here or upload one
 ---
