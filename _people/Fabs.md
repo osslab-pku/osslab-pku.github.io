@@ -1,6 +1,6 @@
 ---
 title: Fabs
-subtitle: 1st Year Master
+subtitle: 2nd Year Master
 description: This is a short description
 type: master
 layout: people
