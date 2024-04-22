@@ -5,7 +5,7 @@
 This repository contains everything for paper replication, some command-line utility tools, and a RESTful backend for our website demo.'
  author: Weiwei Xu
  github: https://github.com/hehao98/MigrationHelper
- website: https://migration-helper.net/
+ website: https://migration-helper.osslab-pku.org/
  published: true
  comments: true
 ---
@@ -17,7 +17,7 @@ This repository contains everything for paper replication, some command-line uti
 
 ### Web Demo
 
-A Web Demo is available at [this link](http://migration-helper.net). 
+A Web Demo is available at [this link](https://migration-helper.osslab-pku.org). 
 
 ### Migration Dataset
 
