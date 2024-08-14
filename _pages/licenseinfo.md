@@ -49,5 +49,5 @@ LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可�
 
 ##### 开源许可证冲突消解工具：
 
-3. W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem," in 38th IEEE/ACM International Conference on Automated Software Engineering, ASE 2023, Luxembourg, September 11-15, 2023.（to appear）
+3. W. Xu, H. He, K. Gao, and M. Zhou, "Understanding and Remediating Open-Source License Incompatibilities in the PyPI Ecosystem," in 38th IEEE/ACM International Conference on Automated Software Engineering, ASE 2023, Luxembourg, September 11-15, 2023.
 
