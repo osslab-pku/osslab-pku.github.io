@@ -39,7 +39,7 @@ LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可�
 该工具可在[licenserec.com](https://licenserec.com/)使用，演示视频在[video.licenserec.com](https://video.licenserec.com/)。该工具已发表在ICSE'23的DEMO Track上，论文参见：[LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects](https://ieeexplore.ieee.org/abstract/document/10172799).
 
 ## 开源许可证冲突消解工具
-即将上线，敬请期待！
+合规性分析与不兼容消解工具可在[https://licenserec.com/#/compliance](https://licenserec.com/#/compliance)使用。
 
 ## 论文
 当您使用相应成果时，建议引用以下论文。
