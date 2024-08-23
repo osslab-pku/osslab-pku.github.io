@@ -1,9 +1,9 @@
 ---
 title: Hengzhi Ye
-subtitle: Undergraudate (to be a Ph.D. Student)
+subtitle: 1st Year Ph.D. Student
 description: This is a short description
 personal_website:
-type: undergraduate
+type: phd
 layout: people
 image: https://osslab-pku.github.io/assets/images/yhz.jpg
 ---
