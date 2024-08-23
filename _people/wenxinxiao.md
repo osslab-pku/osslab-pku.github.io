@@ -1,8 +1,8 @@
 ---
 title: Wenxin Xiao
 subtitle: China Academy Of Engineering Physics 
-type: phd
-layout: graduated
+type: graduated
+layout: people
 image: https://osslab-pku.github.io/assets/images/xwx.jpg 
 ---
 
