@@ -1,6 +1,6 @@
 ---
 title: Ruiqiao Qiu
-subtitle: 1st Year Ph.D. Student
+subtitle: 2nd Year Ph.D. Student
 description: This is a short description
 personal_website: https://dune0310421.github.io/
 type: phd
