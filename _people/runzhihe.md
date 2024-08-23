@@ -1,6 +1,6 @@
 ---
 title: Runzhi He
-subtitle: 2nd Year Ph.D. Student
+subtitle: 3rd Year Ph.D. Student
 description: This is a short description
 personal_website: 
 type: phd
