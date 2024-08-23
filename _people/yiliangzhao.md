@@ -1,6 +1,6 @@
 ---
 title: Yiliang Zhao
-subtitle: 1st Year PH.D. Student
+subtitle: 2nd Year PH.D. Student
 description: This is a short description
 personal_website: 
 type: phd
