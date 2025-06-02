@@ -1,7 +1,7 @@
 # Site Settings
 title: OSS-Lab@PKU-SEI
 tagline: OSS-Lab@PKU-SEI
-email: 
+email:
 description: >
   The website of Open Source Software Data Analytics Lab at Peking University
 baseurl:
@@ -23,7 +23,7 @@ plugins:
 include:
   - _pages
 
-exclude: 
+exclude:
   - Gemfile
   - clean-theme.gemspec
   - Gemfile.lock
@@ -44,14 +44,12 @@ disqus:
   shortname: osslab
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       show_sidebar: true
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
@@ -60,8 +58,7 @@ defaults:
       #image: https://via.placeholder.com/1200x800
       show_sidebar: true
 
-  -
-    scope:
+  - scope:
       path: ""
       type: "people"
     values:
@@ -84,10 +81,10 @@ kramdown:
 footer_menu: footer_menu
 
 collections:
-  people: 
+  people:
     output: true
     layout: people
-    image: https://osslab-pku.github.io/assets/images/placeholder.png 
+    image: https://osslab-pku.github.io/assets/images/placeholder.png
   publication:
     output: true
     layout: publication
