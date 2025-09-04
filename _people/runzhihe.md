@@ -1,6 +1,6 @@
 ---
 title: Runzhi He
-subtitle: 3rd Year Ph.D. Candidate
+subtitle: 4th Year Ph.D. Candidate
 description: This is a short description
 personal_website: 
 type: phd
