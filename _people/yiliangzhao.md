@@ -1,6 +1,6 @@
 ---
 title: Yiliang Zhao
-subtitle: 2nd Year PH.D. Student
+subtitle: 3rd Year PH.D. Candidate
 description: This is a short description
 personal_website: 
 type: phd
