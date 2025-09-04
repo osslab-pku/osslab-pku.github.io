@@ -1,9 +1,9 @@
 ---
 title: Hongyun Chen
-subtitle: Undergraduate (to be a Ph.D. Student)
+subtitle: 1st Year Ph.D. Student
 description: This is a short description
 personal_website: 
-type: undergraduate
+type: phd
 layout: people
 image: https://osslab-pku.github.io/assets/images/hongyunchen.jpeg
 ---
