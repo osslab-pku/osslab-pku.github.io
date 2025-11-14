@@ -33,7 +33,20 @@ Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about
 
 ## Industry Collaborators
 
-![](assets/images/Huawei.svg)
+<div style="display: flex; align-items: center;">
+  <div style="text-align: center; margin-right: 50px;">
+    <img src="assets/images/Huawei.svg" alt="Huawei" width="100" height="100"><br>
+    <span>Huawei</span>
+  </div>
+  <div style="text-align: center; margin-right: 50px;">
+    <img src="assets/images/Baidu.svg" alt="Baidu" width="100" height="100"><br>
+    <span>Baidu</span>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/images/Bytedance.png" alt="Bytedance" width="120" height="100"><br>
+    <span>Byte Dance</span>
+  </div>
+</div>
 
 ## Contact
 
