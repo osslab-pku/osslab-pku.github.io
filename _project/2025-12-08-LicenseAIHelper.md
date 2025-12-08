@@ -8,7 +8,7 @@
  published: true
  comments: true
 ---
-LicenseAiHelper是面向开源平台打造的智能化开源许可证合规性分析与推荐工具。项目由北京大学开源分析实验室成员研发，融合传统规则引擎与大模型的能力，为开源项目提供全方位的许可证智能服务。
+
 
 # LicenseAiHelper - 基于大模型的开源软件合规性分析工具
 
