@@ -36,10 +36,10 @@ toc: true
 
 LicenseRec对开源软件项目的代码和依赖关系进行细粒度的许可证兼容性检查，并通过一个交互式的向导来帮助开发者选择最佳的许可证，该向导有三个方面的指引：个人开放源码风格、商业模式和社区发展。
 
-该工具可在[licenserec.com](https://licenserec.com/)使用，演示视频在[video.licenserec.com](https://video.licenserec.com/)。该工具已发表在ICSE'23的DEMO Track上，论文参见：[LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects](https://ieeexplore.ieee.org/abstract/document/10172799).
+该工具可在[licenserec.osslab-pku.org](https://licenserec.osslab-pku.org/)使用，演示视频在[youtu.be/V5sRDctkKJc]([https://video.licenserec.com/](https://youtu.be/V5sRDctkKJc))。该工具已发表在ICSE'23的DEMO Track上，论文参见：[LicenseRec: Knowledge based Open Source License Recommendation for OSS Projects](https://ieeexplore.ieee.org/abstract/document/10172799).
 
 ## 开源许可证冲突消解工具
-合规性分析与不兼容消解工具可在[https://licenserec.com/#/compliance](https://licenserec.com/#/compliance)使用。
+合规性分析与不兼容消解工具可在[https://licenserec.osslab-pku.org/#/compliance](https://licenserec.osslab-pku.org/#/compliance)使用。
 
 ## 论文
 当您使用相应成果时，建议引用以下论文。
