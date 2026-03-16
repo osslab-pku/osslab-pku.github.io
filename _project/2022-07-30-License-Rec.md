@@ -14,9 +14,9 @@ LicenseRec is an open source license recommendation tool that helps developers c
 
 ![avatar](https://github.com/osslab-pku/RecLicense/raw/master/frontend/src/assets/tool.png)
 
-The tool is available at [licenserec.osslab-pku.org/](https://licenserec.osslab-pku.org/).
+The tool is available at [licenserec.osslab-pku.org](https://licenserec.osslab-pku.org/).
 
-Upload your project and pick the best open source license on [licenserec.osslab-pku.org/](https://licenserec.osslab-pku.org//)!
+Upload your project and pick the best open source license on [licenserec.osslab-pku.org](https://licenserec.osslab-pku.org//)!
 
 ## Introduction
 
