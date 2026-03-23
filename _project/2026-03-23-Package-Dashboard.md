@@ -12,7 +12,7 @@
 
 A cross-ecosystem SCA tool that provides a unified view of supply chain risk by analyzing both software artifacts and upstream community health.
 
-## Project Layout
+## Project Layout 
 
 ```text
 .
