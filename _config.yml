@@ -4,7 +4,7 @@ tagline: OSS-Lab@PKU-SEI
 email:
 description: >
   The website of Open Source Software Data Analytics Lab at Peking University
-baseurl:
+baseurl: ""
 url: "https://osslab-pku.github.io"
 permalink: pretty
 favicon: favicon.svg
