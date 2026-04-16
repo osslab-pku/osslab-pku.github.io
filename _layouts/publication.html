@@ -4,7 +4,7 @@ layout: default
 
 <div class="content">
 
-    {% assign sorted_pubs = site.publication | sort:page.sort %}
+    {% assign sorted_pubs = site.publication | sort:"year" %}
     {% assign year = 0 %}
     {% for pub in sorted_pubs reversed %}
     <article class="media">
