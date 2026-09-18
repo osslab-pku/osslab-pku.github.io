@@ -33,19 +33,40 @@ Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about
 
 ## Industry Collaborators
 
-<div style="display: flex; align-items: center;">
-  <div style="text-align: center; margin-right: 50px;">
-    <img src="assets/images/Huawei.svg" alt="Huawei" width="100" height="100"><br>
-    <span>Huawei</span>
-  </div>
-  <div style="text-align: center; margin-right: 50px;">
-    <img src="assets/images/Baidu.svg" alt="Baidu" width="100" height="100"><br>
-    <span>Baidu</span>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/images/Bytedance.png" alt="Bytedance" width="120" height="100"><br>
-    <span>Byte Dance</span>
-  </div>
+<style>
+.collaborators { display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem; margin: 1.5rem 0; }
+.collaborators figure { margin: 0; text-align: center; }
+/* Bulma's `.content figure:not(:first-child){margin-top:2em}` out-specifies the
+   rule above and would drop every logo after the first. */
+.collaborators figure:not(:first-child) { margin-top: 0; }
+/* Fixed-height box per logo, so the captions line up no matter how tall or wide
+   each mark is. The image is constrained, never stretched. */
+.collaborators .logo { display: flex; align-items: center; justify-content: center; height: 84px; }
+.collaborators .logo img { max-height: 80px; max-width: 150px; width: auto; height: auto; }
+/* Baidu and Microsoft are bare marks; the others carry a wordmark underneath,
+   so at a shared height these two would tower over them. */
+.collaborators .mark-only .logo img { max-height: 54px; }
+/* Bulma italicises figcaption inside .content; these are names, not captions. */
+.collaborators figure figcaption { font-style: normal; font-size: 1rem; margin-top: 0.5rem; }
+</style>
+
+<div class="collaborators">
+  <figure>
+    <span class="logo"><img src="assets/images/Huawei.svg" alt="Huawei"></span>
+    <figcaption>Huawei</figcaption>
+  </figure>
+  <figure class="mark-only">
+    <span class="logo"><img src="assets/images/Baidu.svg" alt="Baidu"></span>
+    <figcaption>Baidu</figcaption>
+  </figure>
+  <figure>
+    <span class="logo"><img src="assets/images/Bytedance.png" alt="ByteDance"></span>
+    <figcaption>ByteDance</figcaption>
+  </figure>
+  <figure class="mark-only">
+    <span class="logo"><img src="assets/images/Microsoft.svg" alt="Microsoft"></span>
+    <figcaption>Microsoft</figcaption>
+  </figure>
 </div>
 
 ## Contact
