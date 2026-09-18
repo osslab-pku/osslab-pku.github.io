@@ -48,7 +48,9 @@ jobs:
         # versions and reject anything newer, including the 3.3.12 we pin.
         uses: ruby/setup-ruby@a0102e0972be65f351c307e2d64b9314a57c8073 # v1.324.0
         with:
-          ruby-version-file: .ruby-version # keeps CI on the same Ruby as developers
+          # No ruby-version here on purpose: with none given, setup-ruby reads
+          # .ruby-version itself, so CI tracks the same Ruby as developers.
+          # (`ruby-version-file` is not an input this action accepts.)
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
