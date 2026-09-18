@@ -25,6 +25,14 @@ tell the user it stays that way until the DOI is issued.
 Leave these placeholder entries in place. `check-publications.mjs` matches them by title and
 flags them once the DOI exists.
 
+A just-accepted paper belongs on the list before any index knows about it. OpenAlex and Crossref
+will not have it yet, and an arXiv preprint is not the publication — so neither wait for the DOI
+nor drop the paper. Write the entry with `doi: ''` from the title and the full author list **as
+the user gives them**; if they only name the paper, ask. Do not lift the authors from the lab
+news post or the preprint: posts congratulate one or two students by first name, and a preprint
+title is often not the accepted one. The venue and its dates are ordinary facts about the
+conference and are safe to look up.
+
 ## Bulk check
 
 ```shell
