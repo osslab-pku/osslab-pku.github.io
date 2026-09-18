@@ -69,8 +69,7 @@ versions — editing through the symlink works, but keep new files on that side.
 
 ## Compress images before committing
 
-`assets/images/` is served as-is, and photos arrive straight from a phone or camera — one profile
-picture was a 10 MB 3288×3288 PNG named `.jpg`. Aim for **~100 KB**.
+`assets/images/` is served as-is, and photos arrive straight from a phone or camera. Aim for **~100-200 KB**.
 
 ```shell
 # square profile photo -> 600x600, ~30 KB
