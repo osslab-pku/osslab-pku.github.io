@@ -34,20 +34,18 @@ Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about
 ## Industry Collaborators
 
 <style>
-.collaborators { display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem; margin: 1.5rem 0; }
+.collaborators { display: flex; flex-wrap: wrap; gap: 1.5rem 2.75rem; margin: 1.5rem 0; }
 .collaborators figure { margin: 0; text-align: center; }
 /* Bulma's `.content figure:not(:first-child){margin-top:2em}` out-specifies the
    rule above and would drop every logo after the first. */
 .collaborators figure:not(:first-child) { margin-top: 0; }
-/* Fixed-height box per logo, so the captions line up no matter how tall or wide
-   each mark is. The image is constrained, never stretched. */
-.collaborators .logo { display: flex; align-items: center; justify-content: center; height: 84px; }
-.collaborators .logo img { max-height: 80px; max-width: 150px; width: auto; height: auto; }
-/* Baidu and Microsoft are bare marks; the others carry a wordmark underneath,
-   so at a shared height these two would tower over them. */
-.collaborators .mark-only .logo img { max-height: 54px; }
+/* Every logo here is the bare mark with no wordmark, so one shared height keeps
+   them consistent. Fixed-height box, image constrained rather than sized, so
+   nothing is stretched and the captions line up. */
+.collaborators .logo { display: flex; align-items: center; justify-content: center; height: 64px; }
+.collaborators .logo img { max-height: 60px; max-width: 96px; width: auto; height: auto; }
 /* Bulma italicises figcaption inside .content; these are names, not captions. */
-.collaborators figure figcaption { font-style: normal; font-size: 1rem; margin-top: 0.5rem; }
+.collaborators figure figcaption { font-style: normal; font-size: 1rem; margin-top: 0.6rem; }
 </style>
 
 <div class="collaborators">
@@ -55,7 +53,7 @@ Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about
     <span class="logo"><img src="assets/images/Huawei.svg" alt="Huawei"></span>
     <figcaption>Huawei</figcaption>
   </figure>
-  <figure class="mark-only">
+  <figure>
     <span class="logo"><img src="assets/images/Baidu.svg" alt="Baidu"></span>
     <figcaption>Baidu</figcaption>
   </figure>
@@ -63,7 +61,7 @@ Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about
     <span class="logo"><img src="assets/images/Bytedance.png" alt="ByteDance"></span>
     <figcaption>ByteDance</figcaption>
   </figure>
-  <figure class="mark-only">
+  <figure>
     <span class="logo"><img src="assets/images/Microsoft.svg" alt="Microsoft"></span>
     <figcaption>Microsoft</figcaption>
   </figure>
