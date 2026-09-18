@@ -7,13 +7,26 @@ show_sidebar: false
   {{ page.content }}
 </div>
 
+{%- comment -%}
+  One entry per section, in the order they appear on the page: the `type` value
+  a profile sets in its front matter, then the heading shown above those cards.
 
-<p class="title is-3">Advisor</p>
+  A section with nobody in it is skipped entirely, so adding a type here costs
+  nothing until someone uses it. This is why postdoc and master can sit in the
+  list even while the lab has neither.
+{%- endcomment -%}
+
+{% assign sections = "advisor,Advisor|phd,Current Ph.D. Students|postdoc,Current Postdocs|master,Current Master Students|undergraduate,Current Undergraduate Students|visiting,Visiting Researcher|graduated,Graduated Students" | split: "|" %}
+{% assign sorted_peoples = site.people | sort:page.sort %}
+
+{% for section in sections %}
+  {% assign parts = section | split: "," %}
+  {% assign members = sorted_peoples | where: "type", parts[0] %}
+  {% if members.size > 0 %}
+<p class="title is-3">{{ parts[1] }}</p>
 
 <div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "advisor" %}
+  {% for people in members %}
     <div class="column is-3-desktop is-6-tablet">
       <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
         <div class="card">
@@ -25,182 +38,13 @@ show_sidebar: false
           </div>
           {% endif %}
           <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
+            <p class="title is-5">{{ people.title }}</p>
+            <p class="subtitle is-6">{{ people.subtitle }}</p>
           </div>
         </div>
       </a>
     </div>
-    {% endif %}
   {% endfor %}
 </div>
-
-<p class="title is-3">Current Ph.D. Students</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "phd" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-<!-- <p class="title is-3">Current Postdocs</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "postdoc" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div> -->
-<!-- <p class="title is-3">Current Master Students</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "master" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
- -->
-
-
-<p class="title is-3">Current Undergraduate Students</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "undergraduate" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-
-<p class="title is-3">Visiting Researcher</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "visiting" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
-
-
-
-
-
-<p class="title is-3">Graduated Students</p>
-
-<div class="columns is-multiline">
-  {% assign sorted_peoples = site.people | sort:page.sort %}
-  {% for people in sorted_peoples %}
-    {% if people.type == "graduated" %}
-    <div class="column is-3-desktop is-6-tablet">
-      <a href="{% if people.personal_website %} {{ people.personal_website }} {% else %} {{ people.url | prepend: site.baseurl }} {% endif %}">
-        <div class="card">
-          {% if people.image %}
-          <div class="card-image">
-            <figure class="image is-1by1">
-              <img src="{{ people.image }}" alt="{{ people.title }}" />
-            </figure>
-          </div>
-          {% endif %}
-          <div class="card-content">
-            <p class="title is-5">{{ people.title }}</h2>
-            <p class="subtitle is-6">{{ people.subtitle }}</p>  
-          </div>
-        </div>
-      </a>
-    </div>
-    {% endif %}
-  {% endfor %}
-</div>
-
+  {% endif %}
+{% endfor %}
