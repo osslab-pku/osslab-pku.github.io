@@ -1,6 +1,6 @@
 ---
 title: Haiqiao Gu
-subtitle: 5th Year Ph.D. Candidate
+subtitle: 6th Year Ph.D. Candidate
 description: This is a short description
 personal_website: 
 type: phd
