@@ -56,6 +56,13 @@ pages) with Crossref (venue name, which OpenAlex leaves null on most conference 
 - Posters, demo-track and workshop papers look identical to full papers. Chinese-language
   articles appear too. Whether they belong is the lab's call — work through the candidates with
   the user rather than adding them all.
+- **A paper the lab did not lead does not belong here**, even with Prof. Zhou as a co-author —
+  this list is the lab's own work, not every collaboration she joins. The signal is another
+  group's paper she was invited onto: someone else's student first, Prof. Zhou in the middle of
+  the author list, and no one else from the lab. Check the names against `_people/` — but as a
+  prompt to ask, never as a filter to delete by. `_people/` holds current members and only some
+  alumni, so early papers by former students read as external when they are not. Leave a new
+  candidate off when it looks like this; propose removals to the user rather than making them.
 - **Upstream venue strings are often worse than the ones in the repo.** Crossref gives
   "Proceedings of the 34th ACM International Conference on the Foundations of Software
   Engineering" where the lab wrote "Demonstrations Track of…". Never replace a hand-written
