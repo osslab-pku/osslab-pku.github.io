@@ -1,6 +1,6 @@
 ---
 title: Hao He
-subtitle: CMU
+subtitle: Microsoft
 description: This is a short description
 personal_website: https://hehao98.github.io
 type: graduated
