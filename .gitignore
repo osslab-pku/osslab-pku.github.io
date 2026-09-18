@@ -1,8 +1,17 @@
+# Jekyll build output and caches
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby gems are installed into the repo by `npm install`
+vendor/
+.bundle/
 *.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-.idea
+
+# Node
+node_modules/
+
+# Editors and OS
+.idea/
 .DS_Store
-.venv/

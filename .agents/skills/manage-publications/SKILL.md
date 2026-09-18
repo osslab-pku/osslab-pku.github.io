@@ -1,0 +1,61 @@
+---
+name: manage-publications
+description: Add or update entries in the publication list (`_publication/`), or check the whole list against OpenAlex and Crossref. Use when a paper is accepted or published, a DOI is issued, or publication metadata needs fixing.
+---
+
+# Publication list
+
+One file per paper in `_publication/`, **front matter only** — the body stays empty.
+`_layouts/publication.html` renders the collection sorted by `year`, newest first. Copy the
+shape from a neighbouring file; `author` uses BibTeX-style ` and ` separators and `year` is
+quoted.
+
+Filenames vary (`2026-04-15-ICSE-CVE.md`, `2024-10.1145-3690632.md`). Nothing depends on them
+beyond uniqueness — do not rename existing files.
+
+For a single paper, write the file by hand. Never invent a DOI, page range, venue, or
+co-author list.
+
+## Papers with no DOI yet
+
+The layout emits the DOI unconditionally, so `doi: ''` renders a dead link to `https://doi.org/`
+labelled `DOI:` with nothing after it. Include the key anyway — omitting it looks the same — and
+tell the user it stays that way until the DOI is issued.
+
+Leave these placeholder entries in place. `check-publications.mjs` matches them by title and
+flags them once the DOI exists.
+
+## Bulk check
+
+```shell
+node .agents/skills/manage-publications/scripts/check-publications.mjs   # --since, --json
+```
+
+Read-only, zero dependencies, and it must stay read-only (see "Scripts never write content" in
+`AGENTS.md`). It reports; you decide and edit. It combines OpenAlex (discovery, DOI, authors,
+pages) with Crossref (venue name, which OpenAlex leaves null on most conference papers).
+
+| Report section | Action |
+| --- | --- |
+| DOI now issued | Edit that placeholder file, do not create a new one |
+| Not in the list | Candidates needing judgement — see below |
+| In the list but missing fields | Usually just `pages` |
+| Already listed under a different DOI | Upstream duplicate (ACM and IEEE both mint DOIs); ignore |
+| Ignored — not publications | arXiv preprints, Zenodo artifacts |
+
+### What the report cannot decide
+
+- Posters, demo-track and workshop papers look identical to full papers. Chinese-language
+  articles appear too. Whether they belong is the lab's call — work through the candidates with
+  the user rather than adding them all.
+- **Upstream venue strings are often worse than the ones in the repo.** Crossref gives
+  "Proceedings of the 34th ACM International Conference on the Foundations of Software
+  Engineering" where the lab wrote "Demonstrations Track of…". Never replace a hand-written
+  `proceeding` with the upstream one, and leave keys the report does not mention alone —
+  hand-added PDF and slide links live there.
+
+## Author disambiguation
+
+OpenAlex merges researchers who share a name: its "Minghui Zhou" entity also holds nuclear
+physics, metallurgy and ornithology papers. The script filters on institution **and** field
+together; dropping either pollutes the results badly.

@@ -23,15 +23,28 @@ plugins:
 include:
   - _pages
 
+# Anything here is kept out of _site/. Note that setting `exclude` REPLACES
+# Jekyll's defaults, so the toolchain files have to be listed explicitly.
 exclude:
+  # Toolchain
   - Gemfile
-  - clean-theme.gemspec
   - Gemfile.lock
+  - bulma-clean-theme.gemspec
+  - package.json
+  - package-lock.json
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - scripts/
+  - vendor/
+  - .bundle/
+  - .jekyll-cache/
+  # Docs and developer files (these were previously published by accident)
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - README-bulma-clean-theme.md
+  - changelog.txt
+  - intro4OSSlab.docx
+  - screenshot.png
 
 livereload: true
 

@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gemspec
 
-group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.6"
-    gem "jekyll-sitemap"
-    gem "jekyll-paginate"
-    gem "jekyll-seo-tag"
-end
+# The `github-pages` gem pins Jekyll and every plugin to exactly the versions
+# GitHub Pages itself builds with, so a site that builds locally builds in CI.
+# Upgrade deliberately with `bundle update github-pages`, never casually.
+gem "github-pages", group: :jekyll_plugins
 
+# Ruby 3.x dropped webrick from stdlib; `jekyll serve` still needs it.
+gem "webrick", "~> 1.8"

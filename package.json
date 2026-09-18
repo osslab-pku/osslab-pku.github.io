@@ -1,16 +1,26 @@
 {
-  "name": "bulma-clean-theme",
-  "description": "This is a clean and simple Jekyll Theme built with the Bulma framework, providing a modern looking site to start with.",
+  "name": "osslab-pku-website",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "chrisrhymes",
+  "private": true,
+  "description": "Website of the Open Source Software Data Analytics Lab at Peking University",
   "license": "MIT",
+  "scripts": {
+    "prepare": "node scripts/setup.mjs --soft",
+    "setup": "node scripts/setup.mjs",
+    "start": "npm run dev",
+    "dev": "node scripts/jekyll.mjs serve --livereload",
+    "build": "node scripts/jekyll.mjs build",
+    "clean": "node scripts/jekyll.mjs clean",
+    "new": "node scripts/new.mjs"
+  },
   "dependencies": {
     "bulma": "^0.8",
     "bulma-block-list": "^0.1.1"
+  },
+  "devDependencies": {
+    "mise": "^2026.9.5"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
