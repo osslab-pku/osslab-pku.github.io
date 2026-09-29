@@ -10,24 +10,36 @@ show_sidebar: true
 
 We are a research group at School of Computer Science, Peking University. 
 
-In the broadest sense, our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community is diversed in all sorts of ways toward this goal. We often take the **empirical** approach, by observing things in real life and summarizing practices from experiences, to build theories and mechanisms. We often invent intelligent techniques and bots to help control complex system and its development.
+In the broadest sense, we work on software data analytics, AI agents, and open source digital sociology. 
+<!--  
+our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community is diversed in all sorts of ways toward this goal. We often take the **empirical** approach, by observing things in real life and summarizing practices from experiences, to build theories and mechanisms. We often invent intelligent techniques and bots to help control complex system and its development. 
+-->
+More specifically, we are interested in mining data and measuring how people cooperate with each other and AI to do their work, for various purposes, like helping understand and control large complex software systems, LLMs,  society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. 
 
-More specifically, our current focus is on observing software repositories and measuring how developers live their lives for various purposes, like helping understand and control large complex software systems, society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. 
+<!-- observing repositories and measuring how developers live their lives for various purposes, like helping understand and control large complex software systems, society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. -->
 
+We publish in software engineering, human-computer interaction, and AI conferences and journals.
 See [the CCF list](https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/) for top venues in this field. See [Publications](/publications/) for our latest publications. If you want to learn more, see [Resources](/resources/) in this website.
 
 ## Current Research Ts
 
-1. Open Source Software Supply Chain (modeling, risk analysis and resolutin)
-2. Characterizing open source ecosystem as complex system
-3. Open source license compatibility detection and conflict resolution
-4. Open Source Sustainbility (deprecation prediction)
-5. Profiling Developer (expertise, personality and learning trajectory)
-6. Software engineering bots (library migration recommender/GFI recommender/dependency update bot/release note bot...)
+1. Coding agents
+2. Open Source Software/Model Supply Chain (modeling, risk analysis and resolutin)
+<!-- 3. Characterizing open source ecosystem as complex system -->
+3. Open source governance (human factors in open source)
+4. Open source license compatibility detection and conflict resolution
+<!-- 5. Open Source Sustainbility (deprecation prediction) -->
+5. Profiling Developer/Project/Ecosystem (expertise, personality and learning trajectory)
+<!-- 7. Software engineering bots (library migration recommender/GFI recommender/dependency update bot/release note bot...) -->
 
 ## For Prespective Students
 
-We are constantly looking for self-motivated students with sufficient programming skills. Students with strong interest in mining big data, observing open source ecosystems and improving current software development practices are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, machine learning and natural language processing might help you prosper in this field but are not necessarily required. 
+We are constantly looking for self-motivated students with sufficient programming skills. 
+Students with strong interest in mining big data, exploring open source and making a better world
+<!-- observing open source ecosystems and improving current software development practices --> 
+are extremely welcomed. Industry experiences and rich software development skills will be your great advantage. Background in software engineering, statistics, visualization, data mining, 
+and AI might help you prosper in this field.
+<!-- machine learning and natural language processing might help you prosper in this field. <!-- but are not necessarily required. -->
 
 Contact Professor [Zhou Minghui](http://sei.pku.edu.cn/~zhmh/) for details about PhD openings and undergraduate internship opportunities.
 
