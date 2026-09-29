@@ -6,6 +6,7 @@ permalink: /resources/
 show_sidebar: false
 hero_height: 4
 toc: true
+published: false
 ---
 
 ## Introduction to our Research

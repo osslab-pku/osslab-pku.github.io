@@ -6,8 +6,8 @@
   link: /people/
 - name: Projects
   link: /projects/
-- name: Resources
-  link: /resources/
+#- name: Resources
+#  link: /resources/
 - name: License
   link: /license/
 - name: Data
