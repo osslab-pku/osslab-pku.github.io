@@ -9,9 +9,16 @@ show_sidebar: true
 ## Introduction
 
 We are a research group at the School of Computer Science, Peking University. 
-Our research belongs to the Software Engineering field, which focuses on improving the **efficiency** and **quality** of software development. The software engineering community pursues this goal in diverse ways. 
+
+Our research <!-- belongs to the Software Engineering field, which --> 
+focuses on improving the **efficiency** and **quality** of software development. 
+The software engineering community pursues this goal in diverse ways. 
+
 We often take a **data-driven** approach, observing development as it happens and summarizing practices from experience, to build theories and mechanisms. 
+
 We often use diverse methodologies and invent intelligent techniques to help understand and control complex systems and their development. 
+
+We often have a particular interest in open source development, open source communities and open source ecosystem.
 
 <!-- More specifically, we are interested in mining data and measuring how people cooperate with each other and AI to do their work, for various purposes, like helping understand and control large complex software systems, LLMs, society, and universe. We might use a wide spectrum of technologies and interdisciplinary methodologies, depending on the specific problem we are tackling. -->
 <!-- observing repositories and measuring how developers live their lives for various purposes, like helping understand and control large complex software systems, society, and universe. We might use a wide spectrum of technologies and interdisplinary methodologies, depending on the specific problem we are tackling with. -->
