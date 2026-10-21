@@ -6,7 +6,9 @@ description: Write a news announcement in `_posts/` — paper accepted, award, t
 # News posts
 
 Short announcements in `_posts/`, most often a paper acceptance. Copy the front matter from a
-neighbouring file.
+neighbouring file. For paper acceptances, state the topic in `title` (`"Paper on file-level copying
+accepted by ICSE 2027"`) rather than `"One paper accepted by …"`, and leave author names out of the
+headline.
 
 A paper acceptance usually needs **two** changes: a post here and an entry in `_publication/`
 (see `manage-publications`). Ask if the user only requested one.
